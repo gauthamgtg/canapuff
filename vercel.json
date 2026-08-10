@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": false },
+    { "source": "/cart.html", "destination": "https://www.canapuff.com/cart", "permanent": false },
+    { "source": "/cart", "destination": "https://www.canapuff.com/cart", "permanent": false },
+    { "source": "/search.html", "destination": "https://www.canapuff.com/search", "permanent": false },
+    { "source": "/search", "destination": "https://www.canapuff.com/search", "permanent": false },
+    {
+      "source": "/(collections|products|pages|policies|blogs)/(.*)\\.html",
+      "destination": "https://www.canapuff.com/$1/$2",
+      "permanent": false
+    },
+    {
+      "source": "/(collections|products|pages|policies|blogs)/(.*)",
+      "destination": "https://www.canapuff.com/$1/$2",
+      "permanent": false
+    }
+  ]
+}
